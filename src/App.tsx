@@ -5,9 +5,7 @@ import styled from "styled-components";
 import "./style.css";
 import React from "react";
 
-const Content = styled.div`
-  padding-top: 9vh;
-`;
+const Content = styled.div``;
 const App = () => {
   return (
     <>

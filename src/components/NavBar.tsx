@@ -2,48 +2,65 @@ import styled from "styled-components";
 import React from "react";
 
 const StyledNavbar = styled.div`
-  width: 100vw;
-  height: 10vh;
-  background: #ade3ef;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
+  ul {
+    font-family: "copperplate";
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: var(--background-color);
+  }
 `;
 const StyledTitle = styled.h1`
-  color: #000;
-  font-family: "Inter";
+  top: 0;
+  font-family: "Copperplate";
   font-size: 4vh;
   font-style: normal;
   font-weight: light;
   line-height: normal;
+  padding-bottom: 2vh;
+  border-bottom: solid;
+  margin-bottom: 0;
 `;
-
-const StyledButton = styled.h1`
-  position: absolute;
-  top: 0;
-  top: 0;
-  right: 5vw;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-`;
-
-function PopUp() {
-  return null;
-}
 
 export function NavBar() {
   return (
     <>
+      <StyledTitle>Sabrinas familie</StyledTitle>
       <StyledNavbar>
-        <StyledTitle>Fladmarkslekten</StyledTitle>
+        <ul>
+          <li>
+            <a className="active" href="#home">
+              Hjem
+            </a>
+          </li>
+          <li>
+            <a href="#news">Ringdals historie</a>
+          </li>
+          <li>
+            <a href="#contact">Fladmarks historie</a>
+          </li>
+          <li>
+            <a href="#about">Slektstre</a>
+          </li>
+        </ul>
       </StyledNavbar>
-      <StyledButton>
-        <img src={"/menu-button.png"} onClick={() => <PopUp />} />
-      </StyledButton>
     </>
   );
 }

@@ -1,5 +1,5 @@
 :root {
-  --background-color: #EDECEC;
+  --background-color: #d5cfc4;
 
 }
 body{
@@ -26,7 +26,6 @@ button:focus-visible {
 }
 
 #app {
-  padding-top: 8vh;
   text-align: center;
 
 }
