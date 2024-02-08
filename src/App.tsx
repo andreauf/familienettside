@@ -18,9 +18,9 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path={"/"} element={<Forside />} />
-            <Route path={"/RingdalsHistorie"} element={<Ringdal />} />
-            <Route path={"/FladmarksHistorie"} element={<Fladmark />} />
-            <Route path={"/Slektstre"} element={<Slektstre />} />
+            <Route path={"RingdalsHistorie"} element={<Ringdal />} />
+            <Route path={"FladmarksHistorie"} element={<Fladmark />} />
+            <Route path={"Slektstre"} element={<Slektstre />} />
           </Routes>
         </BrowserRouter>
       </Content>
