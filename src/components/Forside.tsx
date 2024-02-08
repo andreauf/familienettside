@@ -9,9 +9,4 @@ export function Forside() {
   );
 }
 
-const StyledImg = styled.img`
-  width: 80%;
-  max-width: 800px;
-`;
-
 const StyledRectangle = styled.div``;
