@@ -4,32 +4,11 @@ import { NavBar } from "./components/NavBar";
 import styled from "styled-components";
 import "./style.css";
 import React from "react";
+import { Ringdal } from "./components/RingdalsHistorie";
+import { Fladmark } from "./components/FladmarksHistorie";
+import { Slektstre } from "./components/Slektstre";
 
 const Content = styled.div``;
-
-function Ringdal() {
-  return (
-    <>
-      <p>Her kommer Ringdals historie</p>
-    </>
-  );
-}
-
-function Fladmark() {
-  return (
-    <>
-      <p>Her kommer Fladmarks historie</p>
-    </>
-  );
-}
-
-function Slektstre() {
-  return (
-    <>
-      <p>Her kommer slektstreet til vår familie</p>
-    </>
-  );
-}
 
 const App = () => {
   return (
