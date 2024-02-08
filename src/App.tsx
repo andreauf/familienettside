@@ -15,7 +15,7 @@ const App = () => {
     <>
       <NavBar />
       <Content>
-        <BrowserRouter basename={"/"}>
+        <BrowserRouter>
           <Routes>
             <Route path={"/"} element={<Forside />} />
             <Route path={"/RingdalsHistorie"} element={<Ringdal />} />
