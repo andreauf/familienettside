@@ -3,6 +3,8 @@ import { Forside } from "./components/Forside";
 import { NavBar } from "./components/NavBar";
 import styled from "styled-components";
 import "./style.css";
+import React from "react";
+
 const Content = styled.div`
   padding-top: 9vh;
 `;
