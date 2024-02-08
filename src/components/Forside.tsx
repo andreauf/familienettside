@@ -1,12 +1,9 @@
-import styled from "styled-components";
 import React from "react";
 
 export function Forside() {
   return (
     <>
-      <StyledRectangle></StyledRectangle>
+      <p>Her kommer forside for nettsiden</p>
     </>
   );
 }
-
-const StyledRectangle = styled.div``;

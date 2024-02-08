@@ -46,18 +46,16 @@ export function NavBar() {
       <StyledNavbar>
         <ul>
           <li>
-            <a className="active" href="#home">
-              Hjem
-            </a>
+            <a href="/">Hjem</a>
           </li>
           <li>
-            <a href="#news">Ringdals historie</a>
+            <a href="/RingdalsHistorie">Ringdals historie</a>
           </li>
           <li>
-            <a href="#contact">Fladmarks historie</a>
+            <a href="/FladmarksHistorie">Fladmarks historie</a>
           </li>
           <li>
-            <a href="#about">Slektstre</a>
+            <a href="/Slektstre">Slektstre</a>
           </li>
         </ul>
       </StyledNavbar>
