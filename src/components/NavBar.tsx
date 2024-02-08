@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const StyledNavbar = styled.div`
   ul {
@@ -28,7 +27,6 @@ const StyledNavbar = styled.div`
     color: var(--background-color);
   }
 `;
-
 const StyledTitle = styled.h1`
   top: 0;
   font-family: "Copperplate";
@@ -48,16 +46,16 @@ export function NavBar() {
       <StyledNavbar>
         <ul>
           <li>
-            <Link to="/">Hjem</Link>
+            <a href="/">Hjem</a>
           </li>
           <li>
-            <Link to="/RingdalsHistorie">Ringdals historie</Link>
+            <a href="/RingdalsHistorie">Ringdals historie</a>
           </li>
           <li>
-            <Link to="/FladmarksHistorie">Fladmarks historie</Link>
+            <a href="/FladmarksHistorie">Fladmarks historie</a>
           </li>
           <li>
-            <Link to="/Slektstre">Slektstre</Link>
+            <a href="/Slektstre">Slektstre</a>
           </li>
         </ul>
       </StyledNavbar>
