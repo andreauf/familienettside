@@ -4,6 +4,7 @@ import styled from "styled-components";
 const StyledPDF = styled.iframe`
   width: 80%;
   height: 100vh;
+  border: none;
 `;
 
 export function Byfolk() {
