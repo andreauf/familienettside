@@ -1,17 +1,9 @@
-import styled from "styled-components";
+import React from "react";
 
 export function Forside() {
   return (
     <>
-      <StyledRectangle>
-        <StyledImg src={"/FladmarkGård.svg"} alt={"Fladmark gård"} />
-      </StyledRectangle>
+      <p>Her kommer forside for nettsiden</p>
     </>
   );
 }
-
-const StyledImg = styled.img`
-  width: 80%;
-`;
-
-const StyledRectangle = styled.div``;

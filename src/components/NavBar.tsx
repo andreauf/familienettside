@@ -1,28 +1,65 @@
 import styled from "styled-components";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const StyledNavbar = styled.div`
-  width: 100vw;
-  height: 10vh;
-  background: #ade3ef;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
+  ul {
+    font-family: "copperplate";
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: var(--background-color);
+  }
 `;
+
 const StyledTitle = styled.h1`
-  color: #000;
-  font-family: "Inter";
+  top: 0;
+  font-family: "Copperplate";
   font-size: 4vh;
   font-style: normal;
   font-weight: light;
   line-height: normal;
+  padding-bottom: 2vh;
+  border-bottom: solid;
+  margin-bottom: 0;
 `;
+
 export function NavBar() {
   return (
     <>
+      <StyledTitle>Sabrinas familie</StyledTitle>
       <StyledNavbar>
-        <StyledTitle>Fladmarkslekten</StyledTitle>
+        <ul>
+          <li>
+            <Link to="/">Hjem</Link>
+          </li>
+          <li>
+            <Link to="/RingdalsHistorie">Ringdals historie</Link>
+          </li>
+          <li>
+            <Link to="/FladmarksHistorie">Fladmarks historie</Link>
+          </li>
+          <li>
+            <Link to="/Slektstre">Slektstre</Link>
+          </li>
+        </ul>
       </StyledNavbar>
     </>
   );
