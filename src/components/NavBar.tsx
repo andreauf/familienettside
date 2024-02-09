@@ -55,6 +55,7 @@ export function NavBar() {
           </li>
           <li>
             <Link to="/FladmarksHistorie">Fladmark</Link>
+
           </li>
           <li>
             <Link to="/Slektstre">Slektstre</Link>

@@ -1,10 +1,13 @@
 import React from "react";
 import { Byfolk } from "./Byfolk";
 
+
 export function Fladmark() {
   return (
     <>
-      <Byfolk />
+      <p>Her kommer Fladmarks historie</p>
+            <Byfolk />
+
     </>
   );
 }
