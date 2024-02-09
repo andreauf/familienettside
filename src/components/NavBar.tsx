@@ -51,10 +51,11 @@ export function NavBar() {
             <Link to="/">Hjem</Link>
           </li>
           <li>
-            <Link to="/RingdalsHistorie">Ringdals historie</Link>
+            <Link to="/RingdalsHistorie">Ringdal</Link>
           </li>
           <li>
-            <Link to="/FladmarksHistorie">Fladmarks historie</Link>
+            <Link to="/FladmarksHistorie">Fladmark</Link>
+
           </li>
           <li>
             <Link to="/Slektstre">Slektstre</Link>

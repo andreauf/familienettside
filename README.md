@@ -1,3 +1,3 @@
-# Nettside for fladmarkslekten
+# Nettside for fladmark og ringdalslekten
 
-Prod kan sees på https://vite-andreauf.vercel.app/ 
+Prod kan sees på https://familien.fladmark.no/ 
